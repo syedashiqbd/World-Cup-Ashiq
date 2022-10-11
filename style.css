@@ -181,3 +181,26 @@ footer hr {
   margin: 0 10px;
 }
 /* Footer Style End */
+/* Tablet View Responsiveness Start */
+@media only screen and (max-width: 835px) {
+  /* Banner Style Start */
+  .leftText h1 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .leftText p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .rightImage img {
+    width: 110%;
+    top: 31px;
+    left: -40px;
+  }
+  .leftText {
+    width: 50%;
+    margin: 50px 5px 50px 50px;
+  }
+  /* Banner Style End */
+}
+/* Tablet View Responsiveness End */
