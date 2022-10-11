@@ -72,6 +72,11 @@ button a {
 /* Header Style End */
 
 /* Main Section Style Star*/
+main {
+  display: flex;
+  margin-top: 100px;
+  column-gap: 24px;
+}
 
 .leftSidebar {
   background-color: var(--background-color);
@@ -177,9 +182,10 @@ footer hr {
   margin: 0 10px;
 }
 /* Footer Style End */
-/* Tablet View Responsiveness Start */
+
+/*======== Tablet View Responsiveness Start======== */
 @media only screen and (max-width: 835px) {
-  /* Banner Style Start */
+  /* Banner Responsive Style Start */
   .leftText h1 {
     font-size: 40px;
     line-height: 50px;
@@ -197,11 +203,12 @@ footer hr {
     width: 50%;
     margin: 50px 5px 50px 50px;
   }
-  /* Banner Style End */
+  /* Banner Responsive Style End */
 
-  /* Menubar Style Start */
+  /* Menubar Responsive Style Start */
   main {
     flex-direction: column;
+    margin-top: 70px;
   }
   .leftSidebar button {
     padding: 16px 25px;
@@ -211,7 +218,6 @@ footer hr {
   .leftSidebar {
     width: 100%;
     height: auto;
-    margin-top: 70px;
     background-color: #fff;
   }
   .buttonGroup {
@@ -226,6 +232,20 @@ footer hr {
   .leftSidebar button a {
     font-size: 20px;
   }
-  /* Menubar Style Start */
+  /* Menubar Responsive Style End */
+
+  /* Blog Section Responsive Style Star*/
+  .rightItems {
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 30px;
+  }
+  /* Blog Section Responsive Style End*/
+
+  /* Footer Section Responsive Start */
+  .footerMenu ul {
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  /* Footer Section Responsive End */
 }
-/* Tablet View Responsiveness End */
+/*======== Tablet View Responsiveness End ======== */
