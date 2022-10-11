@@ -70,13 +70,9 @@ button a {
   left: -30px;
 }
 /* Header Style End */
+
 /* Main Section Style Star*/
-main {
-  margin-top: 100px;
-  font-family: "Popine";
-  display: flex;
-  gap: 24px;
-}
+
 .leftSidebar {
   background-color: var(--background-color);
   width: 312px;
@@ -202,5 +198,34 @@ footer hr {
     margin: 50px 5px 50px 50px;
   }
   /* Banner Style End */
+
+  /* Menubar Style Start */
+  main {
+    flex-direction: column;
+  }
+  .leftSidebar button {
+    padding: 16px 25px;
+    border: 1px solid #e8e8e8;
+    border-radius: 10px;
+  }
+  .leftSidebar {
+    width: 100%;
+    height: auto;
+    margin-top: 70px;
+    background-color: #fff;
+  }
+  .buttonGroup {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 20px;
+    padding: 10px 0;
+  }
+  .buttonGroup button {
+    width: 236px;
+  }
+  .leftSidebar button a {
+    font-size: 20px;
+  }
+  /* Menubar Style Start */
 }
 /* Tablet View Responsiveness End */
