@@ -15,6 +15,7 @@
 }
 .container {
   width: 90%;
+  max-width: 1320px;
   margin: 0 auto;
 }
 
@@ -54,6 +55,9 @@ button {
   font-size: 20px;
   font-family: Helvetica, sans-serif;
 }
+button:hover {
+  background-color: #3e8e41;
+}
 button a {
   color: #fff;
   text-decoration: none;
@@ -66,7 +70,7 @@ button a {
 .rightImage img {
   width: 90%;
   position: relative;
-  top: 16px;
+  top: 6px;
   left: -30px;
 }
 /* Header Style End */
@@ -96,6 +100,14 @@ main {
   width: 250px;
   height: 60px;
   background-color: #fff;
+}
+button:hover,
+.leftSidebar button:last-of-type:hover {
+  background-color: #3e8e41;
+  color: #fff;
+}
+.leftSidebar button a:hover {
+  color: #fff;
 }
 .leftSidebar button a {
   font-size: 20px;
@@ -203,7 +215,12 @@ footer hr {
   justify-content: center;
   align-items: center;
 }
+.icon a {
+  display: flex;
+  text-decoration: none;
+}
 .fa-brands {
+  color: #fff;
   font-size: 24px;
 }
 /* Footer Style End */
