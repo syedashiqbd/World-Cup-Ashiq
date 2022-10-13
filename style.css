@@ -284,7 +284,7 @@ footer hr {
 /* ============ Mobile View Responsiveness Star ============ */
 @media only screen and (max-width: 480px) {
   .banner {
-    padding: 20px;
+    padding: 15px;
     flex-direction: column;
   }
   .leftText {
@@ -294,7 +294,7 @@ footer hr {
     padding: 0;
   }
   .leftText h1 {
-    font-size: 30px;
+    font-size: 36px;
     line-height: 45px;
     margin: 40px 20px 20px;
   }
@@ -311,7 +311,7 @@ footer hr {
   }
   .rightImage img {
     width: 90%;
-    top: 27px;
+    top: 22px;
     left: 30px;
   }
   Main {
