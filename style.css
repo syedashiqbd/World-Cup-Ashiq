@@ -188,6 +188,24 @@ footer hr {
   font-weight: 500;
   margin: 0 10px;
 }
+.social_icons {
+  margin-top: 30px;
+  display: none;
+  justify-content: center;
+  column-gap: 16px;
+}
+.icon {
+  width: 36px;
+  height: 36px;
+  border-radius: 24px;
+  background: rgba(255, 255, 255, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fa-brands {
+  font-size: 24px;
+}
 /* Footer Style End */
 
 /*======== Tablet View Responsiveness Start======== */
@@ -291,6 +309,36 @@ footer hr {
     width: 80%;
     top: 7px;
     left: 40px;
+  }
+  Main {
+    margin-top: 24px;
+  }
+  .buttonGroup {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    align-items: center;
+  }
+  .buttonGroup button:first-child {
+    width: fit-content;
+  }
+
+  .buttonGroup button {
+    width: 160px;
+  }
+  .rightItems {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .bottomButton {
+    display: none;
+  }
+  footer {
+    margin-top: 30px;
+  }
+  .social_icons {
+    display: flex;
+    column-gap: 10px;
   }
 }
 
