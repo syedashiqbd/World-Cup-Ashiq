@@ -181,7 +181,7 @@ footer hr {
   list-style: none;
   justify-content: center;
 }
-.footerMenu ul a {
+.footerMenu ul li a {
   text-decoration: none;
   color: #b9b9b9;
   font-size: 16px;
@@ -189,7 +189,7 @@ footer hr {
   margin: 0 10px;
 }
 .social_icons {
-  margin-top: 30px;
+  margin-top: 50px;
   display: none;
   justify-content: center;
   column-gap: 16px;
@@ -279,8 +279,9 @@ footer hr {
 /*======== Tablet View Responsiveness End ======== */
 
 /* ============ Mobile View Responsiveness Star ============ */
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 480px) {
   .banner {
+    padding: 20px;
     flex-direction: column;
   }
   .leftText {
@@ -296,7 +297,7 @@ footer hr {
   }
   .leftText p {
     font-size: 14px;
-    margin: 20px;
+    margin: 30px;
     display: -webkit-box;
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
@@ -306,9 +307,9 @@ footer hr {
     width: 100%;
   }
   .rightImage img {
-    width: 80%;
-    top: 7px;
-    left: 40px;
+    width: 90%;
+    top: 27px;
+    left: 30px;
   }
   Main {
     margin-top: 24px;
@@ -335,6 +336,10 @@ footer hr {
   }
   footer {
     margin-top: 30px;
+  }
+  .footerMenu ul {
+    flex-direction: column;
+    column-gap: 20px;
   }
   .social_icons {
     display: flex;
