@@ -26,10 +26,10 @@ header {
   border-radius: 30px;
   color: #fff;
   background-color: var(--background-color);
-  animation: changebg 15s linear infinite;
+  animation: changebg 5s linear infinite;
 }
 @keyframes changebg {
-  50% {
+  0% {
     background-color: #2d542e;
   }
 }

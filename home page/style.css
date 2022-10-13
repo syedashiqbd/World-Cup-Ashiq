@@ -26,10 +26,10 @@ header {
   border-radius: 30px;
   color: #fff;
   background-color: var(--background-color);
-  animation: changebg 15s linear infinite;
+  animation: changebg 5s;
 }
 @keyframes changebg {
-  50% {
+  0% {
     background-color: #2d542e;
   }
 }
@@ -46,6 +46,7 @@ header {
   font-weight: 700;
   line-height: 80px;
 }
+
 .leftText p {
   font-size: 16px;
   font-weight: 400px;
@@ -78,7 +79,7 @@ button a {
   position: relative;
   top: 6px;
   left: -30px;
-  animation: imgscale 5s linear;
+  animation: imgscale 5s;
 }
 @keyframes imgscale {
   0% {
