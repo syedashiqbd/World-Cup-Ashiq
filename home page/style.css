@@ -26,6 +26,12 @@ header {
   border-radius: 30px;
   color: #fff;
   background-color: var(--background-color);
+  animation: changebg 15s linear infinite;
+}
+@keyframes changebg {
+  50% {
+    background-color: #2d542e;
+  }
 }
 .banner {
   display: flex;
@@ -72,6 +78,12 @@ button a {
   position: relative;
   top: 6px;
   left: -30px;
+  animation: imgscale 5s linear;
+}
+@keyframes imgscale {
+  0% {
+    width: 70%;
+  }
 }
 /* Header Style End */
 
