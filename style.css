@@ -259,3 +259,39 @@ footer hr {
   /* Footer Section Responsive End */
 }
 /*======== Tablet View Responsiveness End ======== */
+
+/* ============ Mobile View Responsiveness Star ============ */
+@media only screen and (max-width: 375px) {
+  .banner {
+    flex-direction: column;
+  }
+  .leftText {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  .leftText h1 {
+    font-size: 30px;
+    line-height: 45px;
+    margin: 40px 20px 20px;
+  }
+  .leftText p {
+    font-size: 14px;
+    margin: 20px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .rightImage {
+    width: 100%;
+  }
+  .rightImage img {
+    width: 80%;
+    top: 7px;
+    left: 40px;
+  }
+}
+
+/* ============Mobile View Responsiveness End ============ */
